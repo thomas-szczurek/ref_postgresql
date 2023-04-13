@@ -32,12 +32,14 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [pg_activity](https://labs.dalibo.com/pg_activity), outil de monitoring
 * [ldap2pg](https://labs.dalibo.com/ldap2pg), outil de synchronisation LDAP
 * [pgstats](https://github.com/gleu/pgstats), outil d'accès et d'export de statistiques
-* []()
-* []()
 
 ### Administration
 
 * [EDB Postgres Enterprise Manager](https://www.enterprisedb.com/docs/pem/latest/)
+
+### Usages et API externes
+
+* [Supabase](https://supabase.com/database), permet de créer des APIs REST, GraphQL sur Postgres
 
 ### Sauvegarde
 
