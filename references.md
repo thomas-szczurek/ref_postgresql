@@ -45,6 +45,17 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [emaj](https://github.com/dalibo/emaj), outil de suivi et de rollback
 * [BART](https://www.enterprisedb.com/docs/bart/latest/)
 
+### Migration
+
+* [orafce](https://github.com/orafce/orafce)
+* [ora2pg](https://github.com/darold/ora2pg/releases)
+* [CYBERTEC Migrator](https://www.cybertec-postgresql.com/en/oracle-to-postgresql-migration-cost-assessment/)
+* [EDB Migration Toolkit](https://www.enterprisedb.com/products/migration-toolkit-move-oracle-postgresql)
+
+### Bac à sable
+
+* [postgres-wasm](https://github.com/snaplet/postgres-wasm), permet de faire tourner PgSQL dans votre navigateur
+
 ## En lien avec oracle
 
 ### Articles et documentations
@@ -62,10 +73,3 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
   * [transaction control statements ](https://www.migops.com/blog/oracle-vs-postgresql-transaction-control-statements/)
 * trucs et astuces
   * [Crunchydata's tips](https://www.crunchydata.com/postgres-tips)
-
-### Migration
-
-* [orafce](https://github.com/orafce/orafce)
-* [ora2pg](https://github.com/darold/ora2pg/releases)
-* [CYBERTEC Migrator](https://www.cybertec-postgresql.com/en/oracle-to-postgresql-migration-cost-assessment/)
-* [EDB Migration Toolkit](https://www.enterprisedb.com/products/migration-toolkit-move-oracle-postgresql)
