@@ -4,6 +4,8 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 
 ## Configuration
 
+* [work_mem](https://thebuild.com/blog/2023/03/13/everything-you-know-about-setting-work_mem-is-wrong/), formule de calcul du paramètre work_mem
+
 ## Extensions
 
 * PostGIS
@@ -28,6 +30,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 
 * [PG-Pool-II](https://pgpool.net/mediawiki/index.php/Main_Page)
 * [PgBouncer](https://www.pgbouncer.org/)
+* [pgagroal](https://agroal.github.io/pgagroal/)
 
 ### Utilisation
 
@@ -47,6 +50,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [ldap2pg](https://labs.dalibo.com/ldap2pg), outil de synchronisation LDAP
 * [pgstats](https://github.com/gleu/pgstats), outil d'accès et d'export de statistiques
 * [pgAudit](https://access.crunchydata.com/documentation/pgaudit/1.5.0/) permet de produire des journeaux d'audit
+* [pgBadger](https://pgbadger.darold.net/), outil d'analyse de logs
 
 ### Administration
 
