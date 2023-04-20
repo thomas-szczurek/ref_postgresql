@@ -21,7 +21,8 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [Citus](https://github.com/citusdata/citus), stockage en colonne et tables distribuées
 * [HyperLogLog](https://github.com/citusdata/postgresql-hll), pour faire des count sur des dizaines de milliards d'enregistrements
 * [HypoPG](https://github.com/HypoPG/hypopg), support d'indexs fictifs pour étudier les usages
-* [https://github.com/CrunchyData/pg_featureserv](https://github.com/CrunchyData/pg_featureserv), service REST OGC API Features
+* [pg_featureserv](https://github.com/CrunchyData/pg_featureserv), service REST OGC API Features
+* [TimescaleDB](https://github.com/timescale/timescaledb), fonctions spécifiques aux séries temporelles
 
 
 ## Outils externes
@@ -59,6 +60,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 ### Usages et API externes
 
 * [Supabase](https://supabase.com/database), permet de créer des APIs REST, GraphQL sur Postgres
+* [pg_tileserv](https://github.com/CrunchyData/pg_tileserv), service de tuiles vectorielles
 
 ### Sauvegarde
 
