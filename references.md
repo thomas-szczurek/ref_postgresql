@@ -23,6 +23,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [HypoPG](https://github.com/HypoPG/hypopg), support d'indexs fictifs pour étudier les usages
 * [pg_featureserv](https://github.com/CrunchyData/pg_featureserv), service REST OGC API Features
 * [TimescaleDB](https://github.com/timescale/timescaledb), fonctions spécifiques aux séries temporelles
+* [pg_graphql](https://github.com/supabase/pg_graphql), support des appels GraphQL (utilisé par Supabase)
 
 
 ## Outils externes
@@ -60,6 +61,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 ### Usages et API externes
 
 * [Supabase](https://supabase.com/database), permet de créer des APIs REST, GraphQL sur Postgres
+* [postgREST](https://postgrest.org/en/stable/), serveur http pour gérer des appels REST
 * [pg_tileserv](https://github.com/CrunchyData/pg_tileserv), service de tuiles vectorielles
 
 ### Sauvegarde
