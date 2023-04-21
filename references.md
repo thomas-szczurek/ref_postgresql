@@ -104,3 +104,4 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * trucs et astuces
   * [Crunchydata's tips](https://www.crunchydata.com/postgres-tips)
   * [préocédures stockées](https://www.cybertec-postgresql.com/en/stored-procedures-getting-started/)
+  * [Triggers](https://mydbanotebook.org/post/triggers2/), quelques articles sur les triggers dans PgSQL
