@@ -5,6 +5,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 ## Configuration
 
 * [work_mem](https://thebuild.com/blog/2023/03/13/everything-you-know-about-setting-work_mem-is-wrong/), formule de calcul du paramètre work_mem
+* [memory-management](https://stormatics.tech/blogs/postgresql-memory-management), présentation des différents paramètres mémoires
 
 ## Extensions
 
