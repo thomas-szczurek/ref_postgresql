@@ -67,6 +67,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [postgREST](https://postgrest.org/en/stable/), serveur http pour gérer des appels REST
 * [pg_tileserv](https://github.com/CrunchyData/pg_tileserv), service de tuiles vectorielles
 * [Appsmith](https://www.appsmith.com/), application low/nocode (cf. apex)
+* [Budibase](https://budibase.com/), application low/nocode
 * [NocoDB](https://nocodb.com/), équivalent AirTable
 
 ### Sauvegarde
