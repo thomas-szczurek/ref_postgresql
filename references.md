@@ -66,6 +66,8 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [Supabase](https://supabase.com/database), permet de créer des APIs REST, GraphQL sur Postgres
 * [postgREST](https://postgrest.org/en/stable/), serveur http pour gérer des appels REST
 * [pg_tileserv](https://github.com/CrunchyData/pg_tileserv), service de tuiles vectorielles
+* [Appsmith](https://www.appsmith.com/), application low/nocode (cf. apex)
+* [NocoDB](https://nocodb.com/), équivalent AirTable
 
 ### Sauvegarde
 
