@@ -55,6 +55,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [pgstats](https://github.com/gleu/pgstats), outil d'accès et d'export de statistiques
 * [pgAudit](https://access.crunchydata.com/documentation/pgaudit/1.5.0/) permet de produire des journeaux d'audit
 * [pgBadger](https://pgbadger.darold.net/), outil d'analyse de logs
+* [pgBench](https://www.postgresql.org/docs/current/pgbench.html), execution de benchmark
 
 ### Administration
 
@@ -109,3 +110,4 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
   * [Crunchydata's tips](https://www.crunchydata.com/postgres-tips)
   * [préocédures stockées](https://www.cybertec-postgresql.com/en/stored-procedures-getting-started/)
   * [Triggers](https://mydbanotebook.org/post/triggers2/), quelques articles sur les triggers dans PgSQL
+  * [generate_series](https://database.guide/how-generate_series-works-in-postgresql/), générer des données artificielles pour tester avec des gros volumes
