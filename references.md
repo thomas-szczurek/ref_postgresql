@@ -114,3 +114,4 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
   * [préocédures stockées](https://www.cybertec-postgresql.com/en/stored-procedures-getting-started/)
   * [Triggers](https://mydbanotebook.org/post/triggers2/), quelques articles sur les triggers dans PgSQL
   * [generate_series](https://database.guide/how-generate_series-works-in-postgresql/), générer des données artificielles pour tester avec des gros volumes
+  * [Réparer l'encodage de caractères](https://www.cybertec-postgresql.com/en/fix-bad-encoding-postgresql/)
