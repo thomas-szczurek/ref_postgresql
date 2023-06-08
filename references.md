@@ -30,22 +30,6 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 
 ## Outils externes
 
-### Pool de connexions
-
-* [PG-Pool-II](https://pgpool.net/mediawiki/index.php/Main_Page)
-* [PgBouncer](https://www.pgbouncer.org/)
-* [pgagroal](https://agroal.github.io/pgagroal/)
-
-### Utilisation
-
-* [DBeaver](https://dbeaver.io/)
-* [PgAdmin v4](https://www.pgadmin.org/)
-* [Navicat](https://www.navicat.com/en/products/navicat-for-postgresql)
-
-### Modélisation
-
-* [pgModeler](https://pgmodeler.io/)
-
 ### Analyse
 
 * https://explain.dalibo.com/, outil web pour la visualisation d'un EXPLAIN
@@ -61,24 +45,9 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 
 * [EDB Postgres Enterprise Manager](https://www.enterprisedb.com/docs/pem/latest/)
 
-### Usages et API externes
+### Bac à sable
 
-* [Supabase](https://supabase.com/database), permet de créer des APIs REST, GraphQL sur Postgres
-* [postgREST](https://postgrest.org/en/stable/), serveur http pour gérer des appels REST
-* [pg_tileserv](https://github.com/CrunchyData/pg_tileserv), service de tuiles vectorielles
-* [Appsmith](https://www.appsmith.com/), application low/nocode (cf. apex)
-* [Budibase](https://budibase.com/), application low/nocode
-* [NocoDB](https://nocodb.com/), équivalent AirTable
-
-### Sauvegarde
-
-* [Barman](https://pgbarman.org/)
-* [emaj](https://github.com/dalibo/emaj), outil de suivi et de rollback
-* [BART](https://www.enterprisedb.com/docs/bart/latest/)
-
-### Réplication
-
-* [Patroni](https://github.com/zalando/patroni)
+* [postgres-wasm](https://github.com/snaplet/postgres-wasm), permet de faire tourner PgSQL dans votre navigateur
 
 ### Migration
 
@@ -87,9 +56,40 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [CYBERTEC Migrator](https://www.cybertec-postgresql.com/en/oracle-to-postgresql-migration-cost-assessment/)
 * [EDB Migration Toolkit](https://www.enterprisedb.com/products/migration-toolkit-move-oracle-postgresql)
 
-### Bac à sable
+### Modélisation
 
-* [postgres-wasm](https://github.com/snaplet/postgres-wasm), permet de faire tourner PgSQL dans votre navigateur
+* [pgModeler](https://pgmodeler.io/)
+
+### Pool de connexions
+
+* [PG-Pool-II](https://pgpool.net/mediawiki/index.php/Main_Page)
+* [PgBouncer](https://www.pgbouncer.org/)
+* [pgagroal](https://agroal.github.io/pgagroal/)
+
+### Réplication
+
+* [Patroni](https://github.com/zalando/patroni)
+
+### Sauvegarde
+
+* [Barman](https://pgbarman.org/)
+* [emaj](https://github.com/dalibo/emaj), outil de suivi et de rollback
+* [BART](https://www.enterprisedb.com/docs/bart/latest/)
+
+### Utilisation
+
+* [DBeaver](https://dbeaver.io/)
+* [PgAdmin v4](https://www.pgadmin.org/)
+* [Navicat](https://www.navicat.com/en/products/navicat-for-postgresql)
+
+### Usages et API externes
+
+* [Supabase](https://supabase.com/database), permet de créer des APIs REST, GraphQL sur Postgres
+* [postgREST](https://postgrest.org/en/stable/), serveur http pour gérer des appels REST
+* [pg_tileserv](https://github.com/CrunchyData/pg_tileserv), service de tuiles vectorielles
+* [Appsmith](https://www.appsmith.com/), application low/nocode (cf. apex)
+* [Budibase](https://budibase.com/), application low/nocode
+* [NocoDB](https://nocodb.com/), équivalent AirTable
 
 ## En lien avec oracle
 
@@ -109,6 +109,8 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
   * [ALIAS](https://databaserookies.wordpress.com/2023/01/06/navigating-aliases-in-oracle-to-postgresql-migrations/)
   * [DATE](https://www.migops.com/blog/oracle-vs-sql-server-vs-postgresql-date-date-type/)
   * [transaction control statements ](https://www.migops.com/blog/oracle-vs-postgresql-transaction-control-statements/)
+* sur les index
+  * H3, index hexagonal, big up pour les analyses avec agrégation : [site](https://h3geo.org/) [installation et utilisation](https://blog.rustprooflabs.com/2023/05/postgis-h3-v4-refresh), [exemples](https://carto.com/blog/h3-spatial-indexes-10-use-cases?hss_channel=tw-241079136)
 * trucs et astuces
   * [Crunchydata's tips](https://www.crunchydata.com/postgres-tips)
   * [préocédures stockées](https://www.cybertec-postgresql.com/en/stored-procedures-getting-started/)
