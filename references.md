@@ -21,7 +21,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [FerretDB](https://www.ferretdb.io/), support des fonctions MongoDB sans MongoDB
 * [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable), création de jobs ou de chaînes de jobs
 * [Citus](https://github.com/citusdata/citus), stockage en colonne et tables distribuées
-* [HyperLogLog](https://github.com/citusdata/postgresql-hll), pour faire des count sur des dizaines de milliards d'enregistrements
+* [HyperLogLog](https://github.com/citusdata/postgresql-hll), pour faire des count sur des dizaines de milliards d'enregistrements [exemple](https://www.crunchydata.com/blog/high-compression-metrics-stograge-with-postgres-hyperloglog)
 * [HypoPG](https://github.com/HypoPG/hypopg), support d'indexs fictifs pour étudier les usages
 * [pg_featureserv](https://github.com/CrunchyData/pg_featureserv), service REST OGC API Features
 * [TimescaleDB](https://github.com/timescale/timescaledb), fonctions spécifiques aux séries temporelles
