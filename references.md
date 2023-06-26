@@ -26,6 +26,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [pg_featureserv](https://github.com/CrunchyData/pg_featureserv), service REST OGC API Features
 * [TimescaleDB](https://github.com/timescale/timescaledb), fonctions spécifiques aux séries temporelles
 * [pg_graphql](https://github.com/supabase/pg_graphql), support des appels GraphQL (utilisé par Supabase)
+* [MobilityDB](https://mobilitydb.com/) et son [extension QGIS](https://github.com/MobilityDB/MobilityDB-QGIS), extension pour le traitement de données temporelles (trajectoires de véhicules, etc.)
 
 
 ## Outils externes
