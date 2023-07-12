@@ -85,7 +85,8 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 
 ### Usages et API externes
 
-* [Supabase](https://supabase.com/database), permet de créer des APIs REST, GraphQL sur Postgres
+* [Supabase](https://supabase.com/database), permet de créer des APIs REST, GraphQL depuis PostgreSQL
+* [Hasura](https://hasura.io/), , permet de créer des APIs REST, GraphQL depuis PostgreSQL
 * [postgREST](https://postgrest.org/en/stable/), serveur http pour gérer des appels REST
 * [pg_tileserv](https://github.com/CrunchyData/pg_tileserv), service de tuiles vectorielles
 * [Appsmith](https://www.appsmith.com/), application low/nocode (cf. apex)
