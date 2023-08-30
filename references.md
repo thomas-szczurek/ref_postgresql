@@ -41,6 +41,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [pgAudit](https://access.crunchydata.com/documentation/pgaudit/1.5.0/) permet de produire des journeaux d'audit
 * [pgBadger](https://pgbadger.darold.net/), outil d'analyse de logs
 * [pgBench](https://www.postgresql.org/docs/current/pgbench.html), execution de benchmark
+* [pgmonitor](https://github.com/CrunchyData/pgmonitor), statistiques d'usage de la base
 
 ### Administration
 
