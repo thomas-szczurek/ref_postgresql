@@ -1,2 +1,3 @@
-# gt_postgresql
-centralisation des ressources liées au GT PostgreSQL
+# Références postgresql
+
+Liste de projets liés à PostgreSQL et PostGIS.
