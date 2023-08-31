@@ -10,12 +10,12 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 
 ## Extensions
 
-* PostGIS
+* [PostGIS](https://postgis.net/), extension spatiale
   * [Liste des fonctions](https://postgis.net/docs/reference.html)
-* [postgis_sfcgal](https://oslandia.gitlab.io/SFCGAL/index.html), support de fonctions 3D
-* [Foreign Data Wrappers](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)
-  * [Oracle FDW](https://github.com/laurenz/oracle_fdw), permet de connecter une base pgSQL à oracle
-  * [OGR FDW](https://github.com/pramsey/pgsql-ogr-fdw), idem mais pour toutes les sources gérées par GDAL-OGR
+  * [postgis_sfcgal](https://oslandia.gitlab.io/SFCGAL/index.html), support de fonctions 3D
+  * [Foreign Data Wrappers](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)
+    * [Oracle FDW](https://github.com/laurenz/oracle_fdw), permet de connecter une base pgSQL à oracle
+    * [OGR FDW](https://github.com/pramsey/pgsql-ogr-fdw), idem mais pour toutes les sources gérées par GDAL-OGR
   * [pgsql-http](https://github.com/pramsey/pgsql-http), idem mais pour tous les services http
 * [postgresql_anonymizer](https://labs.dalibo.com/postgresql_anonymizer)
 * [FerretDB](https://www.ferretdb.io/), support des fonctions MongoDB sans MongoDB
@@ -46,6 +46,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 ### Administration
 
 * [EDB Postgres Enterprise Manager](https://www.enterprisedb.com/docs/pem/latest/)
+* [pg_index_watch](https://github.com/dataegret/pg_index_watch), reconstrution automatisé des index
 
 ### Bac à sable
 
@@ -78,7 +79,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [emaj](https://github.com/dalibo/emaj), outil de suivi et de rollback
 * [BART](https://www.enterprisedb.com/docs/bart/latest/)
 
-### Utilisation
+### Utilisation UI
 
 * [DBeaver](https://dbeaver.io/)
 * [PgAdmin v4](https://www.pgadmin.org/)
