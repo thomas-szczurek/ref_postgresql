@@ -36,17 +36,18 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * https://explain.dalibo.com/, outil web pour la visualisation d'un EXPLAIN
 * [termBoard](https://labs.dalibo.com/temboard), outil de monitoring
 * [pg_activity](https://labs.dalibo.com/pg_activity), outil de monitoring
-* [ldap2pg](https://labs.dalibo.com/ldap2pg), outil de synchronisation LDAP
 * [pgstats](https://github.com/gleu/pgstats), outil d'accès et d'export de statistiques
 * [pgAudit](https://access.crunchydata.com/documentation/pgaudit/1.5.0/) permet de produire des journeaux d'audit
 * [pgBadger](https://pgbadger.darold.net/), outil d'analyse de logs
 * [pgBench](https://www.postgresql.org/docs/current/pgbench.html), execution de benchmark
 * [pgmonitor](https://github.com/CrunchyData/pgmonitor), statistiques d'usage de la base
+* [postgres-checkup](https://gitlab.com/postgres-ai/postgres-checkup), analyse et diagnostics par IA
 
 ### Administration
 
 * [EDB Postgres Enterprise Manager](https://www.enterprisedb.com/docs/pem/latest/)
 * [pg_index_watch](https://github.com/dataegret/pg_index_watch), reconstrution automatisé des index
+* [ldap2pg](https://labs.dalibo.com/ldap2pg), outil de synchronisation LDAP
 
 ### Bac à sable
 
