@@ -27,6 +27,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [TimescaleDB](https://github.com/timescale/timescaledb), fonctions spécifiques aux séries temporelles
 * [pg_graphql](https://github.com/supabase/pg_graphql), support des appels GraphQL (utilisé par Supabase)
 * [MobilityDB](https://mobilitydb.com/) et son [extension QGIS](https://github.com/MobilityDB/MobilityDB-QGIS), extension pour le traitement de données temporelles (trajectoires de véhicules, etc.)
+* [Postgres Message Queue](https://github.com/tembo-io/pgmq), gestionnaire de queues (~kafka/redis)
 
 
 ## Outils externes
