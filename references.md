@@ -70,6 +70,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [PG-Pool-II](https://pgpool.net/mediawiki/index.php/Main_Page)
 * [PgBouncer](https://www.pgbouncer.org/)
 * [pgagroal](https://agroal.github.io/pgagroal/)
+* [Supavisor](https://github.com/supabase/supavisor)
 
 ### Réplication
 
