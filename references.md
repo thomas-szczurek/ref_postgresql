@@ -10,6 +10,8 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 
 ## Extensions
 
+Ces projets étendent les possibilités utilisables dans l'environnement de PostgreSQL.
+
 * [PostGIS](https://postgis.net/), extension spatiale
   * [Liste des fonctions](https://postgis.net/docs/reference.html)
   * [postgis_sfcgal](https://oslandia.gitlab.io/SFCGAL/index.html), support de fonctions 3D
@@ -31,9 +33,9 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [Libpostal](https://github.com/pramsey/pgsql-postal), Normalisateur d'adresses basé sur OSM
 
 
-## Outils externes
+## Outils complétentaires externes
 
-### Analyse
+### Analyse du serveur
 
 * https://explain.dalibo.com/, outil web pour la visualisation d'un EXPLAIN
 * [termBoard](https://labs.dalibo.com/temboard), outil de monitoring
@@ -91,13 +93,28 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 
 ### Usages et API externes
 
+#### API
+
 * [Supabase](https://supabase.com/database), permet de créer des APIs REST, GraphQL depuis PostgreSQL
 * [Hasura](https://hasura.io/), , permet de créer des APIs REST, GraphQL depuis PostgreSQL
 * [postgREST](https://postgrest.org/en/stable/), serveur http pour gérer des appels REST
 * [pg_tileserv](https://github.com/CrunchyData/pg_tileserv), service de tuiles vectorielles
 * [Appsmith](https://www.appsmith.com/), application low/nocode (cf. apex)
-* [Budibase](https://budibase.com/), application low/nocode
-* [NocoDB](https://nocodb.com/), équivalent AirTable
+
+#### Applications utilisateurs
+
+* [Budibase](https://budibase.com/), création d'applications low/nocode
+* [NocoDB](https://nocodb.com/), création de formulaires, équivalent AirTable
+* [ReDash](https://github.com/getredash/redash), requêteur SQL et création de datavisualisation
+
+#### Manipulation des données
+
+* [dbt](https://github.com/dbt-labs/dbt-core), un ELT SQL graphique
+* [Singer](https://www.singer.io/), un ETL Python
+* [AirFlow](https://airflow.apache.org/), un orchestrateur de tâches
+* [Domino](https://github.com/Tauffer-Consulting/domino), créateur graphique de workflow
+* [Viewflow](https://github.com/datacamp/viewflow), création de vues matérialisées en SQL, R, Python
+* [Meltano](https://github.com/meltano/meltano), moteur d'intégration (surcouche singer, dbt, airflow)
 
 ## En lien avec oracle
 
