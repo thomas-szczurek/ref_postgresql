@@ -57,6 +57,10 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 
 * [postgres-wasm](https://github.com/snaplet/postgres-wasm), permet de faire tourner PgSQL dans votre navigateur
 
+### Déploiement
+
+* [PgLift](https://gitlab.com/dalibo/pglift), outil de mise en production d'instances avec services annexes (sauvegarde, disponibilité et supervision)
+
 ### Migration
 
 * [orafce](https://github.com/orafce/orafce)
@@ -106,6 +110,7 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 * [Budibase](https://budibase.com/), création d'applications low/nocode
 * [NocoDB](https://nocodb.com/), création de formulaires, équivalent AirTable
 * [ReDash](https://github.com/getredash/redash), requêteur SQL et création de datavisualisation
+* [Superset](https://github.com/apache/superset),  création de datavisualisation
 
 #### Manipulation des données
 
