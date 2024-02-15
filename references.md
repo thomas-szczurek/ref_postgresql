@@ -78,6 +78,7 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 * [PG-Pool-II](https://pgpool.net/mediawiki/index.php/Main_Page)
 * [PgBouncer](https://www.pgbouncer.org/)
 * [pgagroal](https://agroal.github.io/pgagroal/)
+* [PgCat](https://github.com/postgresml/pgcat)
 * [Supavisor](https://github.com/supabase/supavisor)
 
 ### Réplication
@@ -117,6 +118,7 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 
 * [dbt](https://github.com/dbt-labs/dbt-core), un ELT SQL graphique
 * [Singer](https://www.singer.io/), un ETL Python
+* [Airbyte](https://github.com/airbytehq/airbyte), ETL/ELT qui permet d'utiliser SQL pour les transformations
 * [AirFlow](https://airflow.apache.org/), un orchestrateur de tâches
 * [Domino](https://github.com/Tauffer-Consulting/domino), créateur graphique de workflow
 * [Viewflow](https://github.com/datacamp/viewflow), création de vues matérialisées en SQL, R, Python
