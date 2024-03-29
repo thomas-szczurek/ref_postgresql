@@ -33,6 +33,7 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 * [Postgres Message Queue](https://github.com/tembo-io/pgmq), gestionnaire de queues (~kafka/redis)
 * [Libpostal](https://github.com/pramsey/pgsql-postal), Normalisateur d'adresses basé sur OSM
 * [pg_idkit](https://github.com/VADOSWARE/pg_idkit), générateur d'id (uuid v6 et v7, nanoid, etc.)
+* [Apache AGE](https://age.apache.org/), apporte des fonctions de traitements et d'analyse de graphe
 
 
 ## Outils complétentaires externes
@@ -48,6 +49,7 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 * [pgBench](https://www.postgresql.org/docs/current/pgbench.html), execution de benchmark
 * [pgmonitor](https://github.com/CrunchyData/pgmonitor), statistiques d'usage de la base
 * [postgres-checkup](https://gitlab.com/postgres-ai/postgres-checkup), analyse et diagnostics par IA
+* [PoWA](https://powa.readthedocs.io/) outil d'analyse des performances
 
 ### Administration
 
