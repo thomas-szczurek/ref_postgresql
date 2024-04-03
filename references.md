@@ -34,6 +34,7 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 * [Libpostal](https://github.com/pramsey/pgsql-postal), Normalisateur d'adresses basé sur OSM
 * [pg_idkit](https://github.com/VADOSWARE/pg_idkit), générateur d'id (uuid v6 et v7, nanoid, etc.)
 * [Apache AGE](https://age.apache.org/), apporte des fonctions de traitements et d'analyse de graphe
+* [ZomboDB](https://github.com/zombodb/zombodb), ajoute le support d'ElasticSearch comme type d'index
 
 
 ## Outils complétentaires externes
