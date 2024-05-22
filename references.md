@@ -36,7 +36,7 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 * [Apache AGE](https://age.apache.org/), apporte des fonctions de traitements et d'analyse de graphe
 * [ZomboDB](https://github.com/zombodb/zombodb), ajoute le support d'ElasticSearch comme type d'index
 * [pg_tde](https://github.com/Percona-Lab/pg_tde), support "trasnparent" du chiffrement des tables, TOAST et WAL
-
+* [snowflake-sequences](https://github.com/pgEdge/snowflake?tab=readme-ov-file#snowflake-sequences-for-postgresql), ajout d'un type de séquence Snowflake
 
 ## Outils complétentaires externes
 
