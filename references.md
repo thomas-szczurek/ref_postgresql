@@ -11,32 +11,45 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 ## Extensions
 
 Ces projets étendent les possibilités utilisables dans l'environnement de PostgreSQL.
+ 
+### Analyses
 
-* [PostGIS](https://postgis.net/), extension spatiale
-  * [Liste des fonctions](https://postgis.net/docs/reference.html)
-  * [postgis_sfcgal](https://oslandia.gitlab.io/SFCGAL/index.html), support de fonctions 3D
-  * [Foreign Data Wrappers](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)
-    * [Oracle FDW](https://github.com/laurenz/oracle_fdw), permet de connecter une base pgSQL à oracle
-    * [OGR FDW](https://github.com/pramsey/pgsql-ogr-fdw), idem mais pour toutes les sources gérées par GDAL-OGR
-  * [pgsql-http](https://github.com/pramsey/pgsql-http), idem mais pour tous les services http
-* [postgresql_anonymizer](https://labs.dalibo.com/postgresql_anonymizer)
-* [FerretDB](https://www.ferretdb.io/), support des fonctions MongoDB sans MongoDB
-* [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable), création de jobs ou de chaînes de jobs
-* [Citus](https://github.com/citusdata/citus), stockage en colonne et tables distribuées
-* [Hydra](https://github.com/hydradatabase/hydra), stockage en colonne
-* [HyperLogLog](https://github.com/citusdata/postgresql-hll), pour faire des count sur des dizaines de milliards d'enregistrements [exemple](https://www.crunchydata.com/blog/high-compression-metrics-stograge-with-postgres-hyperloglog)
-* [HypoPG](https://github.com/HypoPG/hypopg), support d'indexs fictifs pour étudier les usages
-* [pg_featureserv](https://github.com/CrunchyData/pg_featureserv), service REST OGC API Features
-* [TimescaleDB](https://github.com/timescale/timescaledb), fonctions spécifiques aux séries temporelles
-* [pg_graphql](https://github.com/supabase/pg_graphql), support des appels GraphQL (utilisé par Supabase)
-* [MobilityDB](https://mobilitydb.com/) et son [extension QGIS](https://github.com/MobilityDB/MobilityDB-QGIS), extension pour le traitement de données temporelles (trajectoires de véhicules, etc.)
-* [Postgres Message Queue](https://github.com/tembo-io/pgmq), gestionnaire de queues (~kafka/redis)
 * [Libpostal](https://github.com/pramsey/pgsql-postal), Normalisateur d'adresses basé sur OSM
-* [pg_idkit](https://github.com/VADOSWARE/pg_idkit), générateur d'id (uuid v6 et v7, nanoid, etc.)
+* [MobilityDB](https://mobilitydb.com/) et son [extension QGIS](https://github.com/MobilityDB/MobilityDB-QGIS), extension pour le traitement de données temporelles (trajectoires de véhicules, etc.)
 * [Apache AGE](https://age.apache.org/), apporte des fonctions de traitements et d'analyse de graphe
-* [ZomboDB](https://github.com/zombodb/zombodb), ajoute le support d'ElasticSearch comme type d'index
-* [pg_tde](https://github.com/Percona-Lab/pg_tde), support "trasnparent" du chiffrement des tables, TOAST et WAL
+
+### Accès et diffusion
+
+* [Foreign Data Wrappers](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)
+* [Oracle FDW](https://github.com/laurenz/oracle_fdw), permet de connecter une base pgSQL à oracle
+* [OGR FDW](https://github.com/pramsey/pgsql-ogr-fdw), idem mais pour toutes les sources gérées par GDAL-OGR
+* [pgsql-http](https://github.com/pramsey/pgsql-http), idem mais pour tous les services http
+* [Postgres Message Queue](https://github.com/tembo-io/pgmq), gestionnaire de queues (~kafka/redis)
+* [pg_featureserv](https://github.com/CrunchyData/pg_featureserv), service REST OGC API Features
+* [pg_graphql](https://github.com/supabase/pg_graphql), support des appels GraphQL (utilisé par Supabase)
+
+### Outils
+
+* [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable), création de jobs ou de chaînes de jobs
+* [postgresql_anonymizer](https://labs.dalibo.com/postgresql_anonymizer)
+
+### Types et Indexation
+
+* [postgis_sfcgal](https://oslandia.gitlab.io/SFCGAL/index.html), support de fonctions 3D
+* [HyperLogLog](https://github.com/citusdata/postgresql-hll), indexer une fois pour faire de multiples aggrégations à différents niveaux  [exemple](https://www.crunchydata.com/blog/high-compression-metrics-stograge-with-postgres-hyperloglog)
+* [HypoPG](https://github.com/HypoPG/hypopg), support d'indexs fictifs pour étudier les usages
+* [pg_idkit](https://github.com/VADOSWARE/pg_idkit), générateur d'id (uuid v6 et v7, nanoid, etc.)
 * [snowflake-sequences](https://github.com/pgEdge/snowflake?tab=readme-ov-file#snowflake-sequences-for-postgresql), ajout d'un type de séquence Snowflake
+* [ZomboDB](https://github.com/zombodb/zombodb), ajoute le support d'ElasticSearch comme type d'index
+
+### Stockage
+
+* [pg_tde](https://github.com/Percona-Lab/pg_tde), support "transparent" du chiffrement des tables, TOAST et WAL
+* [PostGIS](https://postgis.net/), extension spatiale ([Liste des fonctions](https://postgis.net/docs/reference.html))
+* [TimescaleDB](https://github.com/timescale/timescaledb), stockage row/column et fonctions spécifiques aux séries temporelles
+* [FerretDB](https://www.ferretdb.io/), support des fonctions MongoDB sans MongoDB
+* [Citus](https://github.com/citusdata/citus), stockage en colonne et tables distribuées
+* [pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake), permet d'écrire et de lire des données colonnes stockées en Iceberg/Delta
 
 ## Outils complétentaires externes
 
