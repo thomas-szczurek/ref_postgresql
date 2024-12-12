@@ -2,7 +2,7 @@
 
 Ce document recense les ressources collectées dans le cadre du groupe de travail.
 
-## Configuration
+## Conseils de configuration
 
 * [work_mem](https://thebuild.com/blog/2023/03/13/everything-you-know-about-setting-work_mem-is-wrong/), formule de calcul du paramètre work_mem
 * [memory-management](https://stormatics.tech/blogs/postgresql-memory-management), présentation des différents paramètres mémoires
@@ -17,6 +17,7 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 * [Libpostal](https://github.com/pramsey/pgsql-postal), Normalisateur d'adresses basé sur OSM
 * [MobilityDB](https://mobilitydb.com/) et son [extension QGIS](https://github.com/MobilityDB/MobilityDB-QGIS), extension pour le traitement de données temporelles (trajectoires de véhicules, etc.)
 * [Apache AGE](https://age.apache.org/), apporte des fonctions de traitements et d'analyse de graphe
+* [pg_duckdb](https://github.com/duckdb/pg_duckdb), déporte à DuckDB l'exécution de requêtes OLAP, permet de lire et d'écrire sur du stockage objet (S3, GCS, R2) du parquet , lit Iceberg/Delta
 
 ### Accès et diffusion
 
@@ -31,7 +32,8 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 ### Outils
 
 * [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable), création de jobs ou de chaînes de jobs
-* [postgresql_anonymizer](https://labs.dalibo.com/postgresql_anonymizer)
+* [postgresql_anonymizer](https://labs.dalibo.com/postgresql_anonymizer), gestion de l'anonymisation
+* [pg_partman](https://github.com/pgpartman/pg_partman), facilite la gestion du partionnement (temps ou numérique)
 
 ### Types et Indexation
 
@@ -51,7 +53,7 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 * [Citus](https://github.com/citusdata/citus), stockage en colonne et tables distribuées
 * [pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake), permet d'écrire et de lire des données colonnes stockées en Iceberg/Delta
 
-## Outils complétentaires externes
+## Outils complémentaires externes
 
 ### Analyse du serveur
 
