@@ -17,7 +17,8 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 * [Libpostal](https://github.com/pramsey/pgsql-postal), Normalisateur d'adresses basé sur OSM
 * [MobilityDB](https://mobilitydb.com/) et son [extension QGIS](https://github.com/MobilityDB/MobilityDB-QGIS), extension pour le traitement de données temporelles (trajectoires de véhicules, etc.)
 * [Apache AGE](https://age.apache.org/), apporte des fonctions de traitements et d'analyse de graphe
-* [pg_duckdb](https://github.com/duckdb/pg_duckdb), déporte à DuckDB l'exécution de requêtes OLAP, permet de lire et d'écrire sur du stockage objet (S3, GCS, R2) du parquet , lit Iceberg/Delta
+* [pg_analytics](https://github.com/paradedb/pg_analytics), déporte à DuckDB l'exécution de requêtes OLAP, permet de lire sur du stockage objet (S3, GCS, R2) du parquet, Iceberg, Delta
+* [pg_duckdb](https://github.com/duckdb/pg_duckdb), déporte à DuckDB l'exécution de requêtes OLAP, permet de lire et d'écrire sur du stockage objet (S3, GCS, R2) du parquet, lit Iceberg/Delta
 
 ### Accès et diffusion
 
