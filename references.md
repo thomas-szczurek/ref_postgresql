@@ -7,6 +7,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 * [work_mem](https://thebuild.com/blog/2023/03/13/everything-you-know-about-setting-work_mem-is-wrong/), formule de calcul du paramètre work_mem
 * [memory-management](https://stormatics.tech/blogs/postgresql-memory-management), présentation des différents paramètres mémoires
 * [paramètres parallel](https://stormatics.tech/blogs/understanding-postgresql-parallel-query), présentation de quelques paramètres pour la parallélisation
+* [CIS Benchmark](https://www.cisecurity.org/benchmark/postgresql), guide de bonnes pratiques pour une configuration sécurisée
 
 ## Extensions
 
@@ -17,7 +18,6 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 * [Libpostal](https://github.com/pramsey/pgsql-postal), Normalisateur d'adresses basé sur OSM
 * [MobilityDB](https://mobilitydb.com/) et son [extension QGIS](https://github.com/MobilityDB/MobilityDB-QGIS), extension pour le traitement de données temporelles (trajectoires de véhicules, etc.)
 * [Apache AGE](https://age.apache.org/), apporte des fonctions de traitements et d'analyse de graphe
-* [pg_analytics](https://github.com/paradedb/pg_analytics), déporte à DuckDB l'exécution de requêtes OLAP, permet de lire sur du stockage objet (S3, GCS, R2) du parquet, Iceberg, Delta
 * [pg_duckdb](https://github.com/duckdb/pg_duckdb), déporte à DuckDB l'exécution de requêtes OLAP, permet de lire et d'écrire sur du stockage objet (S3, GCS, R2) du parquet, lit Iceberg/Delta
 
 ### Accès et diffusion
@@ -35,6 +35,7 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 * [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable), création de jobs ou de chaînes de jobs
 * [postgresql_anonymizer](https://labs.dalibo.com/postgresql_anonymizer), gestion de l'anonymisation
 * [pg_partman](https://github.com/pgpartman/pg_partman), facilite la gestion du partionnement (temps ou numérique)
+* [pg_incremental](https://github.com/CrunchyData/pg_incremental), outil de traitement par lot incrémental
 
 ### Types et Indexation
 
@@ -44,6 +45,7 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 * [pg_idkit](https://github.com/VADOSWARE/pg_idkit), générateur d'id (uuid v6 et v7, nanoid, etc.)
 * [snowflake-sequences](https://github.com/pgEdge/snowflake?tab=readme-ov-file#snowflake-sequences-for-postgresql), ajout d'un type de séquence Snowflake
 * [ZomboDB](https://github.com/zombodb/zombodb), ajoute le support d'ElasticSearch comme type d'index
+* [pg_search](https://github.com/paradedb/paradedb/tree/dev/pg_search), recherche textuelle BM25 (~ Lucene) et vectoriel (pg_vector)
 
 ### Stockage
 
@@ -53,6 +55,7 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 * [FerretDB](https://www.ferretdb.io/), support des fonctions MongoDB sans MongoDB
 * [Citus](https://github.com/citusdata/citus), stockage en colonne et tables distribuées
 * [pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake), permet d'écrire et de lire des données colonnes stockées en Iceberg/Delta
+* [pgstream](https://github.com/xataio/pgstream), outil de capture de changements (CDC) qui permet de répliquer les données et changements DDL
 
 ## Outils complémentaires externes
 
@@ -68,6 +71,7 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 * [pgmonitor](https://github.com/CrunchyData/pgmonitor), statistiques d'usage de la base
 * [postgres-checkup](https://gitlab.com/postgres-ai/postgres-checkup), analyse et diagnostics par IA
 * [PoWA](https://powa.readthedocs.io/) outil d'analyse des performances
+* [pgsql-tweaks](https://gitlab.com/sjstoelting/pgsql-tweaks), ensemble de fonctions PL/PgSQL (vérification de types, vues systèmes, etc.)
 
 ### Administration
 
@@ -90,6 +94,9 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 * [CYBERTEC Migrator](https://www.cybertec-postgresql.com/en/oracle-to-postgresql-migration-cost-assessment/)
 * [EDB Migration Toolkit](https://www.enterprisedb.com/products/migration-toolkit-move-oracle-postgresql)
 * [transqlate](https://gitlab.com/dalibo/transqlate), conversion de requêtes SQL sauce Oracle vers PostgreSQL
+* [db_migrator](https://github.com/cybertec-postgresql/db_migrator), outil de migration de base MS SQL, Oracle et MySQL/MariaDB
+* [Pgcompare](https://github.com/CrunchyData/pgCompare), valide la migration de données entre bases
+* [pgroll](https://github.com/xataio/pgroll), outil de migration de schéma
 
 ### Modélisation
 
@@ -172,3 +179,4 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
   * [Triggers](https://mydbanotebook.org/post/triggers2/), quelques articles sur les triggers dans PgSQL
   * [generate_series](https://database.guide/how-generate_series-works-in-postgresql/), générer des données artificielles pour tester avec des gros volumes
   * [Réparer l'encodage de caractères](https://www.cybertec-postgresql.com/en/fix-bad-encoding-postgresql/)
+  * [PostgreSQL Global Temporary Tables](https://github.com/darold/pgtt)
