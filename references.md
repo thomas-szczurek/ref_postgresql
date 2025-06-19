@@ -49,6 +49,7 @@ Ce document recense les ressources collectées dans le cadre du groupe de travai
 
 * [EDB Postgres Enterprise Manager](https://www.enterprisedb.com/docs/pem/latest/)
 * [pg_index_watch](https://github.com/dataegret/pg_index_watch), reconstrution automatisé des index
+* [pg_auto_reindexer](https://github.com/vitabaks/pg_auto_reindexer?tab=readme-ov-file) Alternative à pg_index_watch pour le réindexage automatisé
 * [ldap2pg](https://labs.dalibo.com/ldap2pg), outil de synchronisation LDAP
 
 ### Bac à sable
