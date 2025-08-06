@@ -36,6 +36,7 @@ Ces projets étendent les possibilités utilisables dans l'environnement de Post
 * [postgresql_anonymizer](https://labs.dalibo.com/postgresql_anonymizer), gestion de l'anonymisation
 * [pg_partman](https://github.com/pgpartman/pg_partman), facilite la gestion du partionnement (temps ou numérique)
 * [pg_incremental](https://github.com/CrunchyData/pg_incremental), outil de traitement par lot incrémental
+* [pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) et [pgcompacttable](https://github.com/dataegret/pgcompacttable), supprimer le bloat des tables et réorganisation des données sur me disque
 
 ### Types et Indexation
 
